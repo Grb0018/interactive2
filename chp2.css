@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    user-select: none;
+    color:antiquewhite;
+}
+
+body{
+    overflow: hidden;
+    background-color: #dcccf6;
+}
+#head{    display: flex;
+    align-items: center;
+    height: 50px;width: 120%;
+    background-color: transparent;}
+#head h3{font-family: Poppins;
+    background-color: #643fbf;
+    padding: 5px 90px;
+    border-radius: 50px;
+    left: -18%;
+    position: relative;
+    margin: 0px 50px;}  
+#head .chpname{  
+    background-color: #643fbf;
+    border-radius: 31px;
+    color: antiquewhite;
+    padding: 6vh 28vh;
+    font-size: 35px;
+
+}     
+#head #marks{
+    background-color: #643fbf;
+    padding: 10px 150px 10px 20px;
+    margin: 5px 0px 5px 210px;
+    border-radius: 20px;
+    position: relative;
+    right: 1%;
+    text-align: left;
+    font-size: 18px;
+}   
+#chp1ques{  display: flex;height: 78vh;
+    padding: 53px;
+    background-color: #a594f0;
+    border-radius: 80px 80px 0px 0px;
+    justify-content: center;}#chp1ques input{ width: 50px;
+        background-color: #784ede;
+        border: 0;
+        padding-left: 25px;
+        border-bottom: 1px solid #f0f0f0;}
+    #chp1ques ol{
+        
+            position: relative;
+            top: 9%;
+            height: 339px;
+            padding: 50px;
+            font-size: 20px;
+            width: 55%;
+            background-color: #784ede;
+            max-height: 470px;
+            border-radius: 25px;
+            color: black;
+        
+        
+    }
+        #chp1ques li{
+            margin-left: 4%;
+            font-size: 15px;
+        }
+#chp1ques input:focus{border: 0;border-bottom: 1px solid rgb(199, 199, 199);outline: none;color:rgb(241, 241, 241);font-weight: bolder;font-size: 18px;}
+#chp1ques input{font-size: 15px;}
+#circle{
+    position: absolute;
+    right: 5%;
+    width: 10%;
+}#line{position: absolute;
+    width: 6%;
+    top: 15%;
+    right: 7%;
+    transform: rotate(22deg);}
+    .getmark,.totalmark{font-family: 'Caveat', cursive;position: absolute;right: 10vw;font-size: 38px;}
+    .getmark{top: 6vw;}.totalmark{top: 9vw;}
+.btnall{
+    position: fixed;
+    bottom: 14vh;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 14vw;
+    border-radius: 1.5vw;
+    padding: 2vw;
+    background-color: #7e4df7;box-shadow: 2px 2px 5px #838689;
+}   #btnall button{display: flex;color:#838689;
+    font-size: 11px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 9vw;
+    padding: 4px;border: 0;
+    border-radius: 0.8vw;} #btnall button svg{width: 24px;} #btnall path{ fill: #838689}
+    #btnall button:hover{color: #6430a8;transform: scale(1.02);box-shadow: 1px 2px 20px #e4e4e4;}#btnall button:hover  path{fill: #6430a8;} 
+    .words{position: absolute;
+        bottom: 0;
+        padding: 10px;
+        background-color: #b3a0e0;
+        margin-left: 30%;
+        height: 4vh;
+        border-radius: 16px;
+        box-shadow: 2px 2px 20px #dfdfdf;
+    }
+    .words a{
+        margin: 0px 20px;
+    padding: 5px 10px;
+    background-color: #633fba;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: antiquewhite;
+    z-index: 5;
+} 
+#word{
+    background-color: #b3a0e0;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #201f22db;
+    border:1px solid #838689;
+}
+.Nxt{
+    position: absolute;
+    right: 11%;
+    width: 99px;
+    height: 86px;
+    z-index: 3;
+    top: 73%;
+    color: antiquewhite;
+    font-size: 1.8rem;
+    font-family: 'Poppins';
+    border: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #8a69dc;
+    border-radius: 2vw;
+    box-shadow: 2px 3px 5px #d1cece;
+}.Nxt:hover{
+    transform:scale(1.04);
+    cursor:pointer;
+    background-color: #e4e4e4;
+    color: #8a69dc;
+    box-shadow: 2px 3px 15px #2b2424;
+}
+#olque input{
+    color: antiquewhite;
+} 
+@media only screen and (max-width: 950px) {
+*{
+    margin: 0;
+    padding:0
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+#head h3 {
+    left: -35%;
+}
+#head h3 {
+    font-family: Poppins;
+    background-color: #643fbf;
+    padding: 5px 90px;
+    border-radius: 50px;
+    left: -29vw;
+    position: relative;
+    margin: 0px 50px;
+}
+#head .chpname {
+    padding: 0;
+    margin: 2% 0%;
+    height: 7vh;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#head #marks {
+    position: relative;
+    left: 18%;
+    height: 6vh;
+    width: 59vw;
+    margin: 2% 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    padding-left: 15px;
+}
+#chp1ques {
+    display: flex;
+    height: 78vh;
+    width: 98vw;
+    background-color: #a594f0;
+    border-radius: 21vw;
+    justify-content: center;
+}
+body{
+    overflow: scroll;
+    height: max-content;
+}
+
+#chp1ques {
+    display: flex;
+    height: fit-content;
+    background-color: #a594f0;
+    border-radius: 11vw;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    width: 99vw;
+    padding: 0;
+    padding-block-end: 8vw;
+}
+#chp1ques ol {
+    position: relative;
+    padding: 14vw 10vw;
+    top: 4vw;
+    z-index: 2;
+    background-color: #784ede;
+    max-height: 470px;
+    border-radius: 25px;
+    margin: 4vw 4vw;
+    width: fit-content;
+    height: fit-content;
+    overflow: scroll;
+}
+.words {
+    position: relative;
+    padding: 10px;
+    background-color: #b3a0e0;
+    width: 98vw;
+    border-radius: 16px;
+    box-shadow: 2px 2px 20px #dfdfdf;
+    margin: 5vw 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    top: 6vw;
+    margin-bottom: 14vh;
+}
+.btnall{    position: fixed;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+    width: 96%;
+    margin: 0%;
+    left: 0;
+    bottom: 0;
+    z-index: 6;
+    border-radius: 9vw 9vw 0vw 0vw;
+    background-color: #8681814a;
+    backdrop-filter: blur(8px);}
+.Nxt{
+    position: relative;
+    top: 1vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    right: -31vh;
+}    
+#word{
+    border:0;
+}
+#chp1ques li {
+    margin-left: 4%;
+    font-size: 18px;
+}
+.getmark{
+    top: 72vw;
+    font-size: 17vw;
+    right: 31vw;
+    position: absolute;
+    z-index: 12;
+    color: black;
+}
+.totalmark {
+    top: 87vw;
+    font-size: 20vw;
+    right: 28vw;
+    position: absolute;
+    z-index: 12;
+    color: black;
+}
+#circle{
+    width: 52vw;
+    top: 61vw;
+    z-index: 12;
+}
+#line{ 
+    width: 42vw;
+    top: 77vw;
+    z-index: 12;
+}
+#btnall button{
+    width: 18vw;
+    border-radius: 5vw;
+}
+}   
