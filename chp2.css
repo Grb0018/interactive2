@@ -23,6 +23,7 @@ body{
     margin: 0px 50px;}  
 #head .chpname{  
     background-color: #643fbf;
+    box-shadow: 1px 5px;
     border-radius: 31px;
     color: antiquewhite;
     padding: 6vh 28vh;
